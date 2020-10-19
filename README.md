@@ -5,7 +5,7 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 
 # Demo
 
-[https://astroid-apps.github.io/image-comparator/](https://astroid-apps.github.io/image-comparator/){:target="_blank"}
+<a href="https://astroid-apps.github.io/image-comparator/" target="_blank">https://astroid-apps.github.io/image-comparator/</a>
 
 # Usage
 1. Please download the file [./dist/comparator.js](./dist/comparator.js).
