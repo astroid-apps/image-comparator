@@ -20,11 +20,11 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 		<div id="images" style="width: 800px"></div>
 		
 		<script>
-      var captionL = "Caption for left image";
-      var imgL = "URL for left image";
-      var captionR = "Caption for right image";
-      var imgR = "URL for right image";
-      var ic = new ImageComparator("images",imgL,imgR,captionL,captionR);
+			var captionL = "Caption for left image";
+			var imgL = "URL for left image";
+			var captionR = "Caption for right image";
+			var imgR = "URL for right image";
+			var ic = new ImageComparator("images",imgL,imgR,captionL,captionR);
 		</script>
 	</body>
 </html>
