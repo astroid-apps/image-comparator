@@ -30,7 +30,7 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 </html>
 ```
 
-# Sample image
+# Sample Image
 
 ![sample](./sample.png)
 
