@@ -30,6 +30,12 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 </html>
 ```
 
+1. it is possible to change images and captions using ```setImage```.
+
+```JavaScript
+ic.setImage(newImageUrlL,newImageUrlR,newCaptionL,newCaptionR);
+```
+
 # Sample Image
 
 ![sample](./sample.png)
