@@ -3,6 +3,10 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 
 スライドバーを使用して2枚の画像を比較するためのスクリプトです。jQueryなどのライブラリは使用していないため軽量です。
 
+# Demo
+
+https://astroid-apps.github.io/image-comparator/
+
 # Usage
 1. Please download the file [./dist/comparator.js](./dist/comparator.js).
 1. Please write HTML as follows.
