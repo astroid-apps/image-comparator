@@ -38,5 +38,6 @@ ic.setImage(newImageUrlL,newImageUrlR,newCaptionL,newCaptionR);
 
 # Sample Image
 
-![sample](./sample.png)
+![sample1](./sample1.png)
 
+![sample2](./sample2.png)
