@@ -1,0 +1,10 @@
+{
+  "name": "image-comparator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "comparator.js",
+  "scripts": {
+    "dev": "parcel watch ./src/comparator.js -d ./dist/ --public-url ./ --no-cache --no-hmr",
+    "build": "parcel build ./src/comparator.js -d ./dist/ --public-url ./ --no-cache"
+  }
+}
