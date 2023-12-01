@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+		<title>image-comparator</title>
+	</head>
+	<body>
+		<div id="images" style="width: 800px"></div>
+
+		<button id="bt">Change</button>
+		
+		<script type="module">
+			import {ImageComparator} from "./ImageComparator.js";
+
+			//init
+			const captionL = "land_shallow_topo";
+			const imgL = "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57752/land_shallow_topo_2048.jpg";
+			
+			const captionR = "land_ocean_ice";
+			const imgR = "https://eoimages.gsfc.nasa.gov/images/imagerecords/57000/57730/land_ocean_ice_2048.jpg";
+			
+			const ic = new ImageComparator("images",imgL,imgR,captionL,captionR);
+			
+			//Change images (optional)
+			let n = 0;
+			document.getElementById("bt").addEventListener("click",function(){
+				if(n % 2 == 0){
+					ic.setImage(imgR,imgL,captionR,captionL);
+				}else{
+					ic.setImage(imgL,imgR,captionL,captionR);
+				}
+				n++;
+			});
+			
+		</script>
+	</body>
+</html>
