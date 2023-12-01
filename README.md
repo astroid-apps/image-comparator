@@ -8,7 +8,7 @@ This script compare two images using a slide bar. No libraries such as jQuery ar
 https://astroid-apps.github.io/image-comparator/
 
 # Usage
-1. Please download the file [./dist/comparator.js](./dist/comparator.js).
+1. Please download the file [./ImageComparator.js](./ImageComparator.js).
 1. Please write HTML as follows.
 
 ```HTML
@@ -16,19 +16,19 @@ https://astroid-apps.github.io/image-comparator/
 <html lang="ja">
 	<head>
 		<meta charset="utf-8">
-		<script src="comparator.js"></script>
-    
 		<title>image-comparator</title>
 	</head>
 	<body>
 		<div id="images" style="width: 800px"></div>
 		
-		<script>
-			var captionL = "Caption for left image";
-			var imgL = "URL for left image";
-			var captionR = "Caption for right image";
-			var imgR = "URL for right image";
-			var ic = new ImageComparator("images",imgL,imgR,captionL,captionR);
+		<script type="module">
+			import {ImageComparator} from "./ImageComparator.js";
+
+			const captionL = "Caption for left image";
+			const imgL = "URL for left image";
+			const captionR = "Caption for right image";
+			const imgR = "URL for right image";
+			const ic = new ImageComparator("images",imgL,imgR,captionL,captionR);
 		</script>
 	</body>
 </html>
